@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;300;400;500;700;900&family=Fraunces:wght@100;300;400;500;700;900&display=swap');
+/* 
+## Colors
+### Primary
+- Soft red: hsl(7, 99%, 70%)
+- Yellow: hsl(51, 100%, 49%)
+- Dark desaturated cyan (graphic design text): hsl(167, 40%, 24%)
+- Dark blue (photography text): hsl(198, 62%, 26%)
+- Dark moderate cyan (footer): hsl(168, 34%, 41%)
+### Neutral
+- Very dark desaturated blue: hsl(212, 27%, 19%)
+- Very dark grayish blue: hsl(213, 9%, 39%)
+- Dark grayish blue: hsl(232, 10%, 55%)
+- Grayish blue: hsl(210, 4%, 67%)
+- White: hsl(0, 0%, 100%)
+## Typography
+### Body Copy
+- Font size: 18px
+### Font
+- Family: [Barlow](https://fonts.google.com/specimen/Barlow)
+- Weights: 600
+- Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
+- Weights: 700, 900
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: url("../img/mobile/image-header.jpg") center/cover no-repeat;
+    height: 80vh;
+    color: #fff;
+}
+
+.headerNav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10% 7%;
+    font-family: Barlow;
+}
+
+header h1 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 10% 0 0 0;
+    letter-spacing: 3px;
+    font-family: Fraunces;
+}
+
+header div {
+    text-align: center;
+    padding: 10% 0 0 0;
+}
+
+.gridSection {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.gridSection article img {
+    width: 375px;
+}
+
+.gridSection article h2 {
+    padding: 15% 3% 8% 3%;
+    font-size: 2rem;
+}
+
+.gridSection article p {
+    line-height: 2.8vh;
+    padding: 0 4% 10% 4%;
+    font-size: 2vh;
+}
+
+.gridSection article a {
+    display: block;
+    padding: 0 0 15% 0;
+}
+
+.gridSection article {
+    text-align: center;
+}
+
+.gridOrder {
+    grid-row: 1/2;
+}
+
+.cherryImage {
+    background: url("../img/mobile/image-graphic-design.jpg") center/cover no-repeat;
+    height: 80vh;
+}
+
+.cherryImage h4 {
+    padding: 90% 0 10% 0;
+    font-size: 3vh;
+}
+
+.cherryImage p {
+    font-size: 1.8vh !important;
+}
+
+.orangeImage {
+    background: url("../img/mobile/image-photography.jpg") center/cover no-repeat;
+    height: 80vh;
+}
+
+.orangeImage h4 {
+    padding: 90% 0 10% 0;
+    font-size: 3vh;
+}
+
+.orangeImage p {
+    font-size: 1.8vh !important;
+}
+
+h2,
+h4,
+h3 {
+    font-family: Fraunces;
+}
+
+p,
+span,
+h6 {
+    font-family: Barlow;
+}
+
+a {
+    font-family: Fraunces;
+}
+
+.faceImg img {
+    border-radius: 50%;
+    width: 75px;
+    margin: 0 0 5% 0;
+}
+
+.faceImg {
+    text-align: center;
+}
+
+.client h5 {
+    text-align: center;
+    padding: 15% 0 15% 0;
+    letter-spacing: 4px;
+    font-size: 2vh;
+}
+
+.testimonal p {
+    text-align: center;
+    padding: 5% 3%;
+    line-height: 3vh;
+}
+
+.clientInfo {
+    text-align: center;
+}
+
+.clientInfo h3,
+.clientInfo span {
+    line-height: 3vh;
+    display: block;
+}
+
+.clientInfo span {
+    padding: 0 0% 15% 0%;
+}
+
+.lastGridSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.lastGridSection img {
+    width: 100%;
+}
+
+footer {
+    background: hsl(168, 34%, 41%);
+    color: hsl(167, 40%, 24%);
+    text-align: center;
+}
+
+footer h6 {
+    padding: 12% 0 8% 0;
+    font-size: 4vh;
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 0 14% 0;
+}
+
+footer nav a {
+    text-decoration: none;
+    color: hsl(167, 40%, 24%)
+}
+
+.socialMedia {
+    padding: 0 0 12% 0;
+}
+
+.socialMedia a {
+    padding: 0 12px;
+}
